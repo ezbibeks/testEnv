@@ -12,4 +12,4 @@ jobs:
     steps:
       - name: deploy
         run: |
-          echo "Hello World"
+          echo "Hello from ${{ var.MY_ENV_NAME }}"
